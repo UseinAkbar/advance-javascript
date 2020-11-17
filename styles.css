@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  transform: scale(.98);
+  border: 2px solid #000;
+  margin: 50px auto;
+  transition: .3s width,
+              .3s height .3s,
+              .3s margin-top .3s,
+              .3s background-color;
+}
+
+.size {
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+}
+
+.caption {
+  background-color: #000;
+}
+
+.hl {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+
+}
+
+.paraphBox {
+  padding: 5px 10px;
+  font-family: arial, sans-serif;
+}
+
+p.text {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: .5px solid #000;
+}
+
+span {
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  padding: 3px 6px;
+  background-color: coral;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  -webkit-tap-highlight-color: transparent;
+  transition: .01s;
+}
+
+span:active {
+  font-size: 14px;
+}
