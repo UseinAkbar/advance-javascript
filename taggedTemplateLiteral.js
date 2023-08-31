@@ -47,7 +47,7 @@ const highlight = (strings, ...values) => {
 
 const str = highlight `Halo, nama saya ${nama}. Umur saya ${umur}. Dan email saya ${email}.`;
 console.log(str);
-//document.querySelector('.display').innerHTML = `${str}`
+// document.querySelector('.display').innerHTML = str;
 
 // Kegunaan TAGGED TEMPLATE LITERAL
 // 1. untuk menghighlight / memberi style secara spesifik pada suatu elemen HTML seperti pada contoh di atas

@@ -1,0 +1,24 @@
+[
+  {
+    "nama": "Usein Akbar",
+    "NIM": "1202204043",
+    "email": "useinakbar123@gmail.com",
+    "jurusan": "Sistem Informasi",
+    "idDosenWali": 1,
+    "jodoh": "hehe"
+  },
+  {
+    "nama": "Joko Anwar",
+    "NIM": "1202204050",
+    "email": "jokoanwar123@gmail.com",
+    "jurusan": "Teknik Industri",
+    "idDosenWali": 2
+  },
+  {
+    "nama": "Adit Widodo",
+    "NIM": "1202204060",
+    "email": "aditwidodo123@gmail.com",
+    "jurusan": "Teknik Mesin",
+    "idDosenWali": 3
+  }
+]

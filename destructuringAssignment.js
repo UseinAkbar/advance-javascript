@@ -80,7 +80,7 @@
 //   email: 'usein@gmail.com'
 // }
 //
-// function getId({umur}) {
+// function getId({umur: age}) {
 //   return age
 // }
 //

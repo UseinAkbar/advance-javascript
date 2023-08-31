@@ -34,6 +34,7 @@
 //   mhs.hello = () => {
 //     console.log(this.nama);
 //   }
+//   return mhs
 // }
 //const a = mahasiswa()
 

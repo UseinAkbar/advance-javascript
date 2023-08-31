@@ -61,8 +61,8 @@
 // let counter = 0;
 //
 //   return () => {
+//     counter += 1;
 //     console.log(counter);
-//     return counter += 1;
 //   }
 // };
 //

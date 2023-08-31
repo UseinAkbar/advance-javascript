@@ -6,6 +6,28 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: salmon;
+}
+
+.nama {
+  font-family: arial;
+  font-size: 80px;
+  text-align: center;
+  color: white;
+}
+
+span {
+  display: inline-block;
+  cursor: pointer;
+  transition: .15s;
+}
+
+span:hover {
+  transform: scale(1.5);
+  color: transparent;
+}
+
 .box {
   width: 100px;
   height: 100px;
@@ -46,7 +68,12 @@ p.text {
   border-bottom: .5px solid #000;
 }
 
-span {
+input:out-of-range {
+  border: 2px solid red;
+}
+
+
+/* span {
   font-size: 15px;
   color: #fff;
   cursor: pointer;
@@ -60,4 +87,4 @@ span {
 
 span:active {
   font-size: 14px;
-}
+} */
